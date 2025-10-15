@@ -50,9 +50,6 @@ Cache-Control: no-cache
 Where the accept line is the key line. If you don't tell the fetch block what to put in the accept header it just defaults to accept, everything which would have been fine accept the server can respond with either html or json so rails just rendered whichever block was placed first. This was fixed by adding the `headers: {"Content-Type": "application/json",}` to the fetch call. I also discovered a nice way to test this that doesn't require rerunning the javascript.
 In Firefox right clicking and opening the network tab shows all of the HTTP requests that your browser has made. If you right click on one of those you are given the edit and resend option which let's you change the headers. 
 
-![edit icon]({{ '/assets/images/edit.png' | relative_url }})
-![resend icon]({{ '/assets/images/resend.png' | relative_url }})
-
 ## TLDR
 
 1. by default `fetch` in javascript accepts any type of format
