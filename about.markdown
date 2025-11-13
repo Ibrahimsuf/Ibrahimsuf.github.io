@@ -16,3 +16,7 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll -->
+
+I'm Ibrahim Sufi. Currently, I work as a Full Stack Developer at Databasically where I'm in charge of migrating our visualizations from ChartDirector to Highcharts to allow us to upgrade ruby. I've also been involved in quite a few interdisciplinary collaboration projects including with Ames National Laboratory. 
+
+Click [Here](https://github.com/rmrresearch/bsse_db) to see some code I've written for Ames Lab. Or checkout the rest of this blog to see things I've learned recently.
